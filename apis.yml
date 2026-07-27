@@ -1,7 +1,20 @@
 aid: homeday
 name: Homeday
-description: Homeday is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Homeday is a German proptech real estate brokerage founded in 2015 and
+  headquartered in Berlin, combining a nationwide network of local partner
+  brokers with digital tools to help owners sell, buyers purchase, and both
+  finance residential property across Germany. Its consumer products include
+  free online and in-person property valuation, full-service sales brokerage,
+  buyer representation, mortgage and financing brokerage through partner banks,
+  and the Preisatlas transparent real estate price map for Germany. Homeday is
+  backed by 500 Global and other investors. The company runs an active
+  engineering organization on GitHub (homeday-de) publishing internal tooling,
+  a Vue component library, design assets, and Ruby clients for third-party real
+  estate APIs (ImmobilienScout24, onOffice), but does not currently publish a
+  first-party public developer API or OpenAPI specification. This profile was
+  added to the API Evangelist network as a venture-portfolio lead and enriched
+  with identity, link-property, and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/homeday/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.homeday.de/media/pages/trust-elements/3452490923-1582548902/logo_homeday-logoicon-socialmedia.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Germany
+- Brokerage
+- Mortgage
+- Property Valuation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://homeday.de
+- type: GitHubOrganization
+  url: https://github.com/homeday-de
+- type: Blog
+  url: https://medium.com/homeday
+- type: Support
+  url: https://hilfe.homeday.de
+- type: PrivacyPolicy
+  url: https://www.homeday.de/de/datenschutz/
+- type: TermsOfService
+  url: https://www.homeday.de/de/agb/
+- type: DomainSecurity
+  url: security/homeday-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
