@@ -50,7 +50,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Germany
 - Brokerage
@@ -64,6 +64,7 @@ tags_raw:
 - Brokerage
 - Mortgage
 - Property Valuation
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
